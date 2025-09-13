@@ -18,7 +18,7 @@ import {
   UploadCloud,
   Layers3,
   BrainCircuit,
-  MessageSquareQuestion,
+  MessageSquareMore,
   User,
   LogOut,
 } from 'lucide-react';
@@ -28,7 +28,7 @@ const menuItems = [
   { href: '/dashboard/upload', label: 'Upload', icon: UploadCloud },
   { href: '/dashboard/flashcards', label: 'Flashcards', icon: Layers3 },
   { href: '/dashboard/mind-map', label: 'Mind Map', icon: BrainCircuit },
-  { href: '/dashboard/ask', label: 'Ask AI', icon: MessageSquareQuestion },
+  { href: '/dashboard/ask', label: 'Ask AI', icon: MessageSquareMore },
   { href: '/dashboard/account', label: 'Account', icon: User },
 ];
 

@@ -11,7 +11,7 @@ import {
   UploadCloud,
   Layers3,
   BrainCircuit,
-  MessageSquareQuestion,
+  MessageSquareMore,
 } from 'lucide-react';
 import Link from 'next/link';
 
@@ -38,7 +38,7 @@ const features = [
     title: 'Ask Anything',
     description: 'Get instant answers to your questions, no document needed.',
     href: '/dashboard/ask',
-    icon: MessageSquareQuestion,
+    icon: MessageSquareMore,
   },
 ];
 
