@@ -1,5 +1,10 @@
 import React from 'react';
-import { SidebarProvider, Sidebar, SidebarInset } from '@/components/ui/sidebar';
+import {
+  SidebarProvider,
+  Sidebar,
+  SidebarInset,
+  SidebarTrigger,
+} from '@/components/ui/sidebar';
 import { DashboardSidebar } from '@/components/dashboard-sidebar';
 
 export default function DashboardLayout({
@@ -14,9 +19,13 @@ export default function DashboardLayout({
           <DashboardSidebar />
         </Sidebar>
         <SidebarInset>
-            <main className="min-h-screen p-4 sm:p-6 lg:p-8">
-                {children}
-            </main>
+          <header className="p-4 sm:p-6 lg:p-8 flex items-center gap-4">
+            <SidebarTrigger className="md:hidden" />
+            <h1 className="text-xl font-semibold"></h1>
+          </header>
+          <main className="p-4 sm:p-6 lg:p-8 pt-0">
+            {children}
+          </main>
         </SidebarInset>
       </div>
     </SidebarProvider>
