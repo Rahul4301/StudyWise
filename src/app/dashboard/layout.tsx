@@ -14,19 +14,19 @@ export default function DashboardLayout({
 }) {
   return (
     <SidebarProvider>
-      <div className="bg-background">
-        <Sidebar>
+      <div className="flex min-h-screen">
+        <Sidebar className="hidden md:block">
           <DashboardSidebar />
         </Sidebar>
-        <SidebarInset>
-          <header className="p-4 sm:p-6 lg:p-8 flex items-center gap-4">
+        <div className="flex-1">
+          <header className="p-4 sm:p-6 lg:p-8 flex items-center gap-4 border-b">
             <SidebarTrigger className="md:hidden" />
-            <h1 className="text-xl font-semibold"></h1>
+            <h1 className="text-xl font-semibold">Dashboard</h1>
           </header>
-          <main className="p-4 sm:p-6 lg:p-8 pt-0">
+          <main className="p-4 sm:p-6 lg:p-8">
             {children}
           </main>
-        </SidebarInset>
+        </div>
       </div>
     </SidebarProvider>
   );
