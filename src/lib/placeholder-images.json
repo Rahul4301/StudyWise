@@ -1,3 +1,17 @@
+
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A focused student studying with digital tools.",
+      "imageUrl": "https://picsum.photos/seed/studywisehero/1200/600",
+      "imageHint": "student library"
+    },
+    {
+      "id": "auth-image",
+      "description": "An abstract image representing knowledge and learning.",
+      "imageUrl": "https://picsum.photos/seed/studywiseauth/800/1200",
+      "imageHint": "abstract library"
+    }
+  ]
 }
