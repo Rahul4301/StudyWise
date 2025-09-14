@@ -23,9 +23,7 @@ export default function FlashcardsPage() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (!api) {
-      return;
-    }
+    if (!api) return;
     setCount(api.scrollSnapList().length);
     setCurrent(api.selectedScrollSnap() + 1);
 
@@ -58,26 +56,31 @@ export default function FlashcardsPage() {
   }
 
   return (
-    <div className="space-y-8">
-       <div>
+    <div className="w-screen h-screen flex flex-col items-center justify-center space-y-6">
+      <div className="text-center mb-4">
         <h1 className="text-3xl font-bold tracking-tight font-headline">Flashcards</h1>
         <p className="text-muted-foreground mt-1">
           Review the key concepts from your document. Click a card to flip it.
         </p>
       </div>
-      
-      <Carousel setApi={setApi} className="w-full max-w-2xl mx-auto">
-        <CarouselContent>
-          {flashcards.map((card, index) => (
-            <CarouselItem key={index}>
-              <Flashcard question={card.question} answer={card.answer} />
-            </CarouselItem>
-          ))}
-        </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
-      </Carousel>
-      <div className="py-2 text-center text-sm text-muted-foreground">
+
+      <div className="flex items-center justify-center w-full">
+        <div className="transform scale-100 max-w-2xl w-full">
+          <Carousel setApi={setApi} className="w-full">
+            <CarouselContent>
+              {flashcards.map((card, index) => (
+                <CarouselItem key={index}>
+                  <Flashcard question={card.question} answer={card.answer} />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
+      </div>
+
+      <div className="text-center text-sm text-muted-foreground">
         Card {current} of {count}
       </div>
     </div>
