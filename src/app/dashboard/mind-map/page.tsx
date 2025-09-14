@@ -9,13 +9,23 @@ import { MindMapNode } from '@/components/mind-map-node';
 import { useMemo } from 'react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 
+// Helper function to extract JSON from a string that might contain markdown backticks
+function extractJsonFromString(str: string): string | null {
+  const match = str.match(/```json\s*([\s\S]*?)\s*```|({[\s\S]*})/);
+  return match ? (match[1] || match[2]) : str;
+}
+
 export default function MindMapPage() {
   const { mindMapData } = useAppContext();
 
   const parsedData = useMemo(() => {
     if (!mindMapData) return null;
     try {
-      return JSON.parse(mindMapData);
+      const cleanedJsonString = extractJsonFromString(mindMapData);
+      if (!cleanedJsonString) {
+        throw new Error("No JSON content found in the provided data.");
+      }
+      return JSON.parse(cleanedJsonString);
     } catch (error) {
       console.error('Failed to parse mind map JSON:', error);
       return { error: 'Failed to parse mind map data. The format might be invalid.' };
