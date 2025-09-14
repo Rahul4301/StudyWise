@@ -40,7 +40,14 @@ const features = [
     href: '/dashboard/ask',
     icon: MessageSquareMore,
   },
+  {
+    title: 'Generate Video',
+    description: 'Create AI-generated videos from your documents.',
+    href: '/dashboard/generate-video',
+    icon: UploadCloud, // you can swap this for a more relevant icon
+  },
 ];
+
 
 export default function DashboardHomePage() {
   return (

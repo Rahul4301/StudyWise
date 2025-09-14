@@ -21,6 +21,7 @@ import {
   MessageSquareMore,
   User,
   LogOut,
+  Clapperboard
 } from 'lucide-react';
 
 const menuItems = [
@@ -29,7 +30,9 @@ const menuItems = [
   { href: '/dashboard/flashcards', label: 'Flashcards', icon: Layers3 },
   { href: '/dashboard/mind-map', label: 'Mind Map', icon: BrainCircuit },
   { href: '/dashboard/ask', label: 'Ask AI', icon: MessageSquareMore },
-  { href: '/dashboard/account', label: 'Account', icon: User },
+  { href: '/dashboard/generate-video', label: 'Generate Video', icon: Clapperboard },
+  { href: '/dashboard/account', label: 'Account', icon: User }
+  
 ];
 
 export function DashboardSidebar() {

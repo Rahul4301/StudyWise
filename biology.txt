@@ -1,0 +1,111 @@
+Mitosis is the fundamental process by which a single eukaryotic cell divides to produce two genetically identical daughter cells. It is essential for growth, tissue maintenance, wound healing, and asexual reproduction in many organisms. Although often taught as a sequence of neat stages, mitosis is actually a highly regulated, dynamic, and mechanically complex process that integrates chromosome biochemistry, microtubule mechanics, motor proteins, membrane remodeling, and cell cycle control. Below is a thorough exploration of mitosis, covering its stages, molecular machinery, regulation, common errors and consequences, experimental observations, and broader biological relevance.
+
+Overview and purpose
+
+At its core, mitosis ensures accurate segregation of the duplicated genome. Before mitosis begins the cell goes through interphase, during which DNA is replicated in S phase and duplicated chromosomes are packaged as sister chromatids held together by cohesin complexes. The cell also grows, accumulates energy and building blocks, and checks for DNA damage. Entry into mitosis marks the transition from a replicated, interphase state to the active process of segregating chromosomes and physically dividing the cell.
+
+Mitosis must achieve two main objectives:
+
+Faithful partitioning of one copy of each chromosome into each daughter cell.
+
+Preservation of cell viability and appropriate distribution of cytoplasmic contents, organelles, and membrane.
+
+Failure in either objective can cause aneuploidy, cell death, or disease such as cancer.
+
+Stages of mitosis
+
+Although many textbooks list prophase, prometaphase, metaphase, anaphase, and telophase, these stages reflect observable structural changes. The biochemical events that drive those changes are continuous and highly coordinated.
+
+Prophase
+
+Prophase is the first visible stage of mitosis. Chromatin begins to condense into discrete chromosomes that can be resolved by light microscopy. Each duplicated chromosome now consists of two sister chromatids joined at the centromere by cohesin proteins. Centrosomes, which have duplicated during interphase, separate and begin to nucleate microtubules, establishing the nascent bipolar spindle. Many regulatory proteins are activated at this stage, most notably cyclin-dependent kinase 1 (CDK1) bound to cyclin B. CDK1 activity triggers phosphorylation cascades that promote chromatin condensation, nuclear envelope breakdown preparation, and spindle assembly factors.
+
+Prometaphase
+
+During prometaphase the nuclear envelope breaks down in most animal cells, allowing spindle microtubules to access chromosomes. Microtubules attach to chromosomes at specialized protein assemblies called kinetochores. Each sister chromatid has its own kinetochore, and correct attachment means sister kinetochores are attached to microtubules from opposite spindle poles, a configuration called amphitelic or biorientation. Attachment is dynamic. Microtubules grow and shrink while kinetochore-associated motors and microtubule-associated proteins stabilize correct attachments and destabilize incorrect ones. The dynamic instability of microtubules is essential; it provides the force and search mechanism needed to capture kinetochores.
+
+Metaphase
+
+Metaphase is defined by chromosomes aligned along the metaphase plate, an imaginary plane equidistant from the two spindle poles. This alignment results from balanced forces on kinetochores produced by microtubule dynamics and motor proteins. The spindle assembly checkpoint (SAC) is active at this stage. The SAC monitors kinetochore attachment and tension, and prevents the onset of anaphase until every chromosome is properly attached and under appropriate tension. The SAC accomplishes this by inhibiting the anaphase promoting complex or cyclosome (APC/C) when errors are detected.
+
+Anaphase
+
+Anaphase begins when APC/C, activated by Cdc20 once the SAC is satisfied, ubiquitinates securin leading to its proteasomal degradation. Degradation of securin frees separase, a protease that cleaves cohesin complexes holding sister chromatids together. Once cohesin is removed, sister chromatids separate and are pulled toward opposite spindle poles. Two processes contribute to chromatid segregation. First, kinetochore microtubules shorten by depolymerization at their plus ends and sometimes at the minus ends near poles. Second, interpolar microtubules slide past one another by the action of motor proteins like kinesin-5, elongating the spindle and pushing poles apart. Anaphase is often subdivided into anaphase A, dominated by chromatid movement toward poles, and anaphase B, dominated by spindle elongation.
+
+Telophase and cytokinesis
+
+During telophase separated chromatids arrive at spindle poles and begin to decondense back into less compact chromatin. Nuclear envelope reformation occurs around each set of chromosomes. Simultaneously, cytokinesis physically divides the cytoplasm. In animal cells cytokinesis is achieved by constriction of an actomyosin contractile ring at the cell equator, forming a cleavage furrow that deepens until the two cells separate. In plant cells a cell plate forms from vesicles delivered along the phragmoplast, eventually forming a new cell wall between daughters. Proper coordination between mitosis and cytokinesis is essential so that nuclei are enclosed in daughter cells.
+
+Molecular machinery
+
+Mitosis relies on many molecular players. Key components include:
+
+Microtubules: Dynamic filaments made of alpha-beta tubulin dimers that form the mitotic spindle. Their polymerization dynamics drive chromosome capture and movement.
+
+Centrosomes and spindle poles: Microtubule organizing centers define spindle geometry in many animal cells. In plants and many fungi, spindle formation is centrosome-independent.
+
+Kinetochore: A multi-protein complex assembled at centromeric DNA that links chromosomes to microtubules and mediates checkpoint signaling.
+
+Motor proteins: Kinesins and dynein produce force on microtubules and cargo. Kinesin-5 crosslinks and slides antiparallel microtubules to separate poles. Dynein contributes to poleward movement and spindle positioning.
+
+Cohesin and separase: Cohesin holds sister chromatids together. Separase cleaves cohesin to allow chromatid separation.
+
+APC/C: A ubiquitin ligase that triggers anaphase by targeting securin and cyclin B for degradation. APC/C thereby ensures exit from mitosis and mitotic cyclin degradation.
+
+Spindle assembly checkpoint proteins: MAD, BUB, and others sense unattached kinetochores or lack of tension and inhibit APC/C until errors are corrected.
+
+Actomyosin ring and RhoA: Cytokinesis in animal cells depends on a contractile ring composed of actin and myosin II regulated by RhoA GTPase and associated signals.
+
+Regulation and checkpoints
+
+Cell cycle regulation ensures mitosis only occurs under safe conditions. CDK-cyclin complexes act as master regulators. CDK1-cyclin B activity rises to trigger mitosis and must fall for mitotic exit. The SAC prevents premature anaphase by keeping APC/C inhibited while kinetochores are incorrectly attached. DNA damage checkpoints during interphase prevent entry into mitosis if damage is detected. There are also mechanisms to ensure cytokinesis does not proceed until chromosomes are safely segregated, such as the abscission checkpoint which delays final membrane scission if chromatin is present in the cleavage plane.
+
+Sources of error and consequences
+
+Mitosis is remarkably accurate but not infallible. Errors include:
+
+Merotelic attachment: A single kinetochore attached to microtubules from both poles can produce lagging chromosomes at anaphase.
+
+Monotelic attachment: One sister kinetochore attached while the other is unattached can be corrected by the SAC if detected.
+
+Non-disjunction: Failure of sister chromatids to separate generates aneuploidy.
+
+Lagging chromosomes and micronuclei: Mis-segregated chromosomes can form micronuclei, which are prone to DNA damage and chromothripsis.
+
+Aneuploidy, arising from mitotic errors, is a hallmark of many cancers. Chromosomal instability can drive tumor evolution. In developmental contexts mitotic failure can cause cell death or congenital disorders.
+
+Experimental observation and tools
+
+Mitosis has been studied with a rich array of tools:
+
+Light and fluorescence microscopy: Time-lapse imaging of fluorescently tagged histones, tubulin, and checkpoint proteins reveals dynamic behavior in living cells.
+
+Electron microscopy: High resolution views of kinetochore and spindle ultrastructure.
+
+Biochemical reconstitution: Purified proteins and cell extracts can reconstitute aspects of spindle assembly and checkpoint signaling in vitro.
+
+Genetics and RNAi/CRISPR: Perturbing genes for motor proteins, cohesin, or checkpoint components reveals their roles.
+
+Single molecule techniques: Optical traps and in vitro assays measure forces generated by microtubule depolymerization and motors.
+
+Comparison to meiosis and evolutionary notes
+
+Mitosis maintains chromosome number while meiosis reduces chromosome number to form gametes. Meiosis introduces recombination and two rounds of division. Despite differences, many core components such as microtubules and APC/C are conserved. Mitosis is found in all eukaryotes, but the mechanics vary. For example, some protists undergo closed mitosis where the nuclear envelope remains intact, while most animal cells undergo open mitosis with nuclear envelope breakdown.
+
+Clinical and biological relevance
+
+Because mitosis is central to cell proliferation, it is a major target in medicine. Many chemotherapeutic drugs target mitotic processes:
+
+Microtubule poisons such as taxanes and vinca alkaloids disrupt spindle dynamics.
+
+Aurora kinase and PLK inhibitors target mitotic kinases and are under clinical investigation.
+
+However, targeting mitosis can cause side effects because rapidly dividing normal cells in bone marrow and gut are affected. Better understanding of mitotic regulation and the differences between cancer and normal cell mitosis is an active area of research.
+
+Historical perspective
+
+Mitosis was first described in the late 19th century. Walther Flemming used aniline dyes and light microscopy to observe and name the process. He documented chromatin behavior during cell division and introduced many terms that persist today. Since then, advances in microscopy, molecular biology, and biochemistry have transformed mitosis from descriptive stages into a mechanistic field.
+
+Summary
+
+Mitosis is a tightly regulated, mechanically driven process that segregates replicated chromosomes into two daughter cells. It integrates chromosome condensation, kinetochore capture, spindle dynamics, force generation by motors and microtubule dynamics, checkpoint signaling, and membrane remodeling for cytokinesis. Errors in mitosis have profound biological consequences, including cancer and developmental disorders. Decades of research have uncovered the core molecular players and regulatory circuits, yet active questions remain about the precise coordination of forces, the origin of chromosomal instability in tumors, and how mitotic mechanics evolved across eukaryotes. Understanding mitosis in molecular detail continues to be crucial for both basic biology and medical applications.
